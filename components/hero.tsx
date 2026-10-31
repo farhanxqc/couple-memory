@@ -124,7 +124,7 @@ export function Hero() {
 
             <span className="flex items-center gap-2 text-[10px] uppercase tracking-[0.22em] text-cream/60">
               <MapPin aria-hidden className="h-3.5 w-3.5 text-clay" />
-              Ubud, Bali · 2026
+              Bekasi · 2026
             </span>
           </motion.div>
         </motion.div>

@@ -35,7 +35,7 @@ export function StoryParallax() {
         </blockquote>
 
         <p className="mt-6 text-[10px] uppercase tracking-[0.28em] text-cream/60">
-          Bali · 2025
+          Bekasi · 2026
         </p>
       </Reveal>
     </section>

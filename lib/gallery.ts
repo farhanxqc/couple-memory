@@ -63,18 +63,7 @@ const moments = [
   "Cerita yang belum selesai",
 ] as const;
 
-const places = [
-  "Yogyakarta",
-  "Ubud",
-  "Bandung",
-  "Bali",
-  "Lombok",
-  "Bromo",
-  "Jakarta",
-  "Semarang",
-  "Malang",
-  "Labuan Bajo",
-] as const;
+const places = ["Bekasi"] as const;
 
 // 8-item block fills a 4x4 desktop grid exactly. Last 2 wide items close row 25.
 const spanPattern: GallerySpan[] = [

@@ -83,13 +83,7 @@ export function FilmMode() {
 
             <div className="absolute inset-x-0 bottom-0 z-10 p-6 sm:p-10">
               <p className="text-[10px] uppercase tracking-[0.24em] text-cream/55">
-                {index + 1} / {galleryItems.length}
-              </p>
-              <p key={`caption-${current.src}`} className="mt-2 font-serif text-2xl text-cream sm:text-3xl">
-                {current.caption}
-              </p>
-              <p className="mt-1.5 text-[10px] uppercase tracking-[0.2em] text-cream/55">
-                {current.date}
+                {index + 1} / {galleryItems.length} · {current.date}
               </p>
             </div>
 

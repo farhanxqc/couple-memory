@@ -52,11 +52,8 @@ function GalleryCard({ item, index, delay, onOpen }: GalleryCardProps) {
 
         <div className="absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/10 to-transparent opacity-80 transition-opacity duration-500 sm:opacity-60 sm:group-hover:opacity-90" />
 
-        <figcaption className="pointer-events-none absolute inset-x-0 bottom-0 z-20 p-4 sm:translate-y-2 sm:p-5 sm:opacity-0 sm:transition-all sm:duration-500 sm:group-hover:translate-y-0 sm:group-hover:opacity-100 sm:group-focus-within:translate-y-0 sm:group-focus-within:opacity-100">
-          <p className="font-serif text-lg leading-tight text-cream sm:text-xl">
-            {item.caption}
-          </p>
-          <p className="mt-1.5 text-[10px] uppercase tracking-[0.22em] text-cream/65">
+        <figcaption className="pointer-events-none absolute inset-x-0 bottom-0 z-20 p-4 sm:p-5">
+          <p className="text-[10px] uppercase tracking-[0.22em] text-cream/65">
             {item.date}
           </p>
         </figcaption>
@@ -257,11 +254,8 @@ export function BentoGallery() {
                 </p>
                 <p
                   id="lightbox-caption"
-                  className="mt-1.5 font-serif text-2xl text-cream"
+                  className="mt-1.5 text-[11px] uppercase tracking-[0.2em] text-cream/70"
                 >
-                  {current.caption}
-                </p>
-                <p className="mt-1 text-[10px] uppercase tracking-[0.2em] text-cream/55">
                   {current.date}
                 </p>
               </div>

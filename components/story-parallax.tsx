@@ -18,7 +18,7 @@ export function StoryParallax() {
           sizes="100vw"
           placeholder={blurPlaceholders["story-09"] ? "blur" : undefined}
           blurDataURL={blurPlaceholders["story-09"]}
-          className="object-cover opacity-40"
+          className="object-contain object-center sm:object-cover opacity-40"
         />
       </Parallax>
 

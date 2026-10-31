@@ -68,7 +68,7 @@ export function Hero() {
             sizes="100vw"
             placeholder={blurPlaceholders["hero"] ? "blur" : undefined}
             blurDataURL={blurPlaceholders["hero"]}
-            className="object-cover object-center"
+            className="object-contain object-center sm:object-cover"
           />
         </motion.div>
       </motion.div>
